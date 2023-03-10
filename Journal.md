@@ -20,3 +20,16 @@ With this ability, I then needed a way to store that value somewhere, and I chos
 loading the page, if the cookie exists then we can load that particular page content, otherwise just load the home page.
 
 
+### 10 March 2023
+---
+To add my previous work and education, I didn't necessarily want to have a large wall of text in the HTML, so I chose to input the data in JSON files, and then use those to generate
+elements using JQuery. I had to do some research to get the elements to fill the empty space
+vertically for the separate sections between education and work, but this [article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) helped with the implementation of that.
+This additionally helped with the layout of the home page that contains the picture and 
+short intro. \
+For the projects, I chose to create similar grid items to the HW5 assignment, so that
+the projects would fill the space available in rows/columns. Using a title and github icon
+that holds the link to the website seems pretty intuitive to me, but I'm unsure if
+adding pictures to the projects is necessary since some projects aren't terribly
+visually appealing (backend APIs, ASCII chess, etc.).
+
