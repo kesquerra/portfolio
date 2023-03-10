@@ -10,11 +10,16 @@ function loadPage(element) {
     });
     element.addClass("active");
     let id = element.attr("id");
+    
     $("#content").load("pages/" + id + ".html", function() {
         if (id === "prev_work") {
             createResume();
+            $("#page_header").text("Resume");
+        } else {
+            $("#page_header").text(id);
         }
     });
+   
 }
 
 function getOrDefault(func, def) {
@@ -38,7 +43,8 @@ $(window).on('beforeunload', function(){
 $(window).on('load', async function() {
     $("#navbar").load("components/navbar.html", function() {
         addNavLinks();
-        loadPage(getCurrentPage())
+        loadPage(getCurrentPage());
+        
     });
     $("#footer").load("components/footer.html")
     
