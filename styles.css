@@ -44,7 +44,87 @@
     overflow: scroll;
 }
 
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
 html, body {
     height: 100%;
 }
 
+.photo {
+    border-radius: 20%;
+    height: 400px;
+    width: 300px;
+}
+
+.bio {
+    width: 30vh;
+    padding-left: 5%;
+}
+
+.project_text {
+    padding-left: 3%;
+}
+
+.project_language {
+    padding-left: 3%;
+    font-style: italic;
+}
+
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project_photo {
+    border-radius: 20%;
+    height: 200px;
+    width: 150px;
+}
+
+.projects {
+    display: grid;
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vh;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(auto-fill, max-content);
+    grid-template-columns: repeat(auto-fill, var(--project-width));
+    grid-auto-columns: var(--project-height);
+    grid-auto-rows: max-content;
+}
+
+.project {
+    border: 0.1rem solid white;
+    border-radius: 10%;
+    padding-bottom: 10px;
+    width: var(--project-width);
+    height: var(--project-height);
+    overflow: scroll;
+}
+
+.project:hover {
+    border: 0.1rem solid purple;
+    background-color: purple;
+    color: white;
+    border-radius: 10%;
+}
+
+:root {
+    --project-width: 30vh;
+    --project-height: 20vh;
+}
+
+
+.dark {
+    background-color: #111111;
+}
+
+* {
+    color: darkgray;
+}
