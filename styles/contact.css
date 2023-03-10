@@ -1,0 +1,13 @@
+.contact_form {
+    width: 70vh;
+    padding: var(--gap);
+}
+
+.form-group {
+    padding: var(--gap);
+}
+
+.button_center {
+    margin: 0;
+    text-align: center;
+}

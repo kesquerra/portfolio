@@ -10,26 +10,6 @@ a {
     text-decoration: none;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-}
-
-.logo_box {
-    width: 125px;
-    height: 50px;
-}
-
-.footer {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    height: 30px;
-    align-self: center;
-}
-
 .horiz {
     display: flex;
     justify-content: space-between;
@@ -63,90 +43,10 @@ a {
     padding: 2vh;
 }
 
-.photo {
-    border-radius: 20%;
-    height: 400px;
-    width: 300px;
-}
-
-.bio {
-    width: 30vh;
-    padding-left: 5%;
-}
-
-.project_text {
-    padding-left: 3%;
-}
-
-.project_language {
-    padding-left: 3%;
-    font-style: italic;
-}
-
-.button_center {
-    margin: 0;
-    text-align: center;
-}
-
-.form-group {
-    padding: var(--gap);
-}
-
-.intro {
+.horiz-center {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.project_photo {
-    border-radius: 20%;
-    height: 200px;
-    width: 150px;
-}
-
-.projects {
-    display: grid;
-    grid-column-gap: var(--gap);
-    grid-row-gap: var(--gap);
-    grid-auto-flow: row;
-    grid-template-rows: repeat(auto-fill, max-content);
-    grid-template-columns: repeat(auto-fill, var(--project-width));
-    grid-auto-columns: var(--project-height);
-    grid-auto-rows: max-content;
-}
-
-.project {
-    border: 0.1rem solid white;
-    border-radius: 10%;
-    padding-bottom: 10px;
-    width: var(--project-width);
-    height: var(--project-height);
-    overflow: scroll;
-}
-
-.project:hover {
-    border: 0.1rem solid purple;
-    background-color: purple;
-    color: white;
-    border-radius: 10%;
-}
-
-
-.dark {
-    background-color: #111111;
-}
-
-.contact_form {
-    width: 70vh;
-    padding: var(--gap);
-}
-
-#page_header {
-    text-transform: capitalize;
-    text-align: center;
-    display: inline;
-    width: 100%;
-    padding-top: 1vh;
 }
 
 :root {

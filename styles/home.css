@@ -1,0 +1,10 @@
+.photo {
+    border-radius: 20%;
+    height: 400px;
+    width: 300px;
+}
+
+.bio {
+    width: 30vh;
+    padding-left: 5%;
+}
