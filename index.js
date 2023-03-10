@@ -135,3 +135,10 @@ async function createWorkExperience() {
     });
 }
 
+
+function sendFormEmail() {
+    let subject = "Inquiry from " + $("#email").val();
+    let body = $("#message").val() + "%0D%0A%0D%0AThank you, " + $("#name").val();
+    window.location.href = 'mailto:kyle@esquerra.io?subject=' + subject + '&body=' + body;
+} 
+
