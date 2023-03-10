@@ -1,0 +1,36 @@
+[
+    {
+        "type": "Masters of Science",
+        "concentration": "Computer Science",
+        "institution": "Portland State University",
+        "graduation_year": "2023",
+        "honors": "In Progress"
+    },
+    {
+        "type": "Bachelors of Science",
+        "concentration": "Computer Science",
+        "institution": "Oregon State University",
+        "graduation_year": "2021",
+        "honors": "Cum Laude Honors"
+    },
+    {
+        "type": "Undergraduate Certificate",
+        "concentration": "Cybersecurity",
+        "institution": "Oregon State University",
+        "graduation_year": "2021",
+        "honors": "Cum Laude Honors"
+    },
+    {
+        "type": "Associates of Arts",
+        "concentration": "Geography",
+        "institution": "Long Beach City College",
+        "graduation_year": "2019",
+        "honors": "Phi Theta Kappa Honors"
+    },
+    {
+        "type": "Specialist Certificate",
+        "concentration": "Geospatial Intelligence",
+        "institution": "National Geospatial-Intelligence Agency",
+        "graduation_year": "2011"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "employer": "United States Marine Corps",
+        "years": "2010-2015",
+        "positions": [
+            {
+                "title": "Geospatial Database Manager",
+                "years": "2010-2013",
+                "descriptors": [
+                    "Managed over 10 terabytes of raw and processed geospatial data",
+                    "Processed geospatial data to create ease of use for geospatial technicians",
+                    "Provided database management and data manipulation training to over 20 geospatial technicians",
+                    "Created and disseminated over 400 geospatial products in support of training exercises"
+                ]
+            },
+            {
+                "title": "Geospatial Production Lead Specialist",
+                "years": "2013-2014",
+                "descriptors": [
+                    "Served as lead and sole geospatial technician in Afghanistan in support of Operation Enduring Freedom",
+                    "Created an automated database to track and maintain all geospatial products that created ease of use and superior organization than all previous methods.",
+                    "Produced 1,200 mission critical products using ArcGIS, Erdas Imagine, and Envi visual information solutions in support of worldwide military operations as well as in support of humanitarian operations.",
+                    "Provided 100 expeditious tailored geospatial products in support of combat operations and rescue missions",
+                    "Recognized by the Secretary of the Navy and awarded the Navy and Marine Corps Commendation Medal for superior performance in duties as the sole geospatial technician in Afghanistan"
+                ]
+            },
+            {
+                "title": "Geospatial Production Chief",
+                "years": "2014-2015",
+                "descriptors": [
+                    "Supervised and Quality Controlled the production and dissemination of over 1,000 geospatial products in accordance with geospatial accuracy standards.",
+                    "Developed new analytical tools for hydrographic analysis and product dissemination.",
+                    "Developed database standards and acquired new data on all high priority areas of interest.",
+                    "Managed a team of ten marines and was recognized for superior leadership performance."
+                ]
+            }
+        ]
+    },
+    {
+        "employer": "West Coast Arborists, Inc.",
+        "years": "2015-2018",
+        "positions": [
+            {
+                "title": "Geographic Informations & Systems Assistance",
+                "years": "2015-2018",
+                "descriptors": [
+                    "Managed over 1 million geospatial tree inventory points for 300+ cities in California, Arizona and Nevada",
+                    "Provided database management and data manipulation for geospatial data within SQL server",
+                    "Created various environmental analysis products in an effort to reduce smog and increase tree planting in several cities",
+                    "Created and maintained all pertinent city inventory data for 300+ cities in California, Arizona and Nevada"
+
+                ]
+            }
+        ]
+    },
+    {
+        "employer": "Oregon State University",
+        "years": "2019-2021",
+        "positions": [
+            {
+                "title": "GIS Technician",
+                "years": "2019-2020",
+                "descriptors": [
+                    "Created custom geospatial products in order to serve Yellowstone National Park data reports",
+                    "Provided database management and data manipulation for geospatial data collected",
+                    "Created various social analysis products in an effort to view traffic patterns and sites visited within Yellowstone National Park",
+                    "Created and maintained all pertinent data in order to document all activities within Yellowstone National Park"
+                ]
+            },
+            {
+                "title": "Computer Science Teaching Assistant",
+                "years": "2019-2021",
+                "descriptors": [
+                    "Conducted teaching hours and assisted students with Software Engineering course material",
+                    "Implemented new grading techniques for software engineering course testing suites",
+                    "Independently conducted grading and assessment of student's understanding of course materials"                    
+                ]
+            }
+        ]
+    },
+    {
+        "employer": "Portland State Aerospace Society",
+        "years": "2022-Present",
+        "positions": [
+            {
+                "title": "Ground Station Software Engineer",
+                "years": "2022-Present",
+                "descriptors": []
+            }
+        ]
+    }
+]
