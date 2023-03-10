@@ -134,10 +134,17 @@ html, body {
 }
 
 * {
-    color: darkgray;
+    color:lightgray;
 }
 
 .contact_form {
     width: 70vh;
     padding: 1vh;
+}
+
+#page_header {
+    text-transform: capitalize;
+    text-align: center;
+    display: inline;
+    width: 100%;
 }
