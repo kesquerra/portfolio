@@ -7,7 +7,6 @@
     padding: var(--gap);
 }
 
-.button_center {
-    margin: 0;
-    text-align: center;
+.btn-dark {
+    border-color: white;
 }
