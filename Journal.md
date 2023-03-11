@@ -1,4 +1,6 @@
 # Log Journal
+Website: [kyle.esquerra.io](https://kyle.esquerra.io) \
+Github: [Repository](https://github.com/kesquerra/portfolio)
 
 ## 8 March 2023
 ---
@@ -70,6 +72,6 @@ do some updating there to make it more name appropriate. I also added a couple C
 to make less variation between styling elements (like how wide & tall projects should be, how much padding should be used everywhere, how much gap should be used, etc.).
 
 ### Deployment
-For deployment with Github Pages, I noticed the ability to use custom domains, and since I already own my family name domain [esquerra.io](esquerra.io), I decided to make this portfolio page specific to me as a subdomain, using [kyle.esquerra.io](kyle.esquerra.io).
+For deployment with Github Pages, I noticed the ability to use custom domains, and since I already own my family name domain [esquerra.io](https://esquerra.io), I decided to make this portfolio page specific to me as a subdomain, using [kyle.esquerra.io](https://kyle.esquerra.io).
 This was surprisingly easy to do with Github Pages, and I'm really pleased with how well
 it works with deployments.
