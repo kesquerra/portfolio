@@ -25,12 +25,6 @@
     border-radius: 10%;
 }
 
-.project_photo {
-    border-radius: 20%;
-    height: 200px;
-    width: 150px;
-}
-
 .project_text {
     padding-left: 3%;
 }
@@ -38,4 +32,8 @@
 .project_language {
     padding-left: 3%;
     font-style: italic;
+}
+
+.project_title {
+    padding-left: var(--gap);
 }
